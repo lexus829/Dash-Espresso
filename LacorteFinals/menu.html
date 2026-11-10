@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Espresso | Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <a href="index.html" class="logo">
+            <img src="Logo.jfif" alt="Dash Espresso Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="menu-heading">
+    <p class="small-heading">SOMETHING GOOD TO EAT AND DRINK</p>
+    <h1>Our Menu</h1>
+    <p>Take your pick from our drinks and food.</p>
+</section>
+
+<div class="menu-search">
+    <input type="text" id="search-input"
+           placeholder="Search for a product...">
+</div>
+
+<div class="category-buttons">
+
+    <button class="category-btn active" data-category="all">
+        All
+    </button>
+
+    <button class="category-btn" data-category="classic-espresso">
+        Classic Espresso Drinks
+    </button>
+
+    <button class="category-btn" data-category="matcha">
+        Matcha Series
+    </button>
+
+    <button class="category-btn" data-category="non-coffee">
+        Non Coffee Drinks
+    </button>
+
+    <button class="category-btn" data-category="rice-meal">
+        Rice Meal
+    </button>
+
+    <button class="category-btn" data-category="breakfast">
+        Breakfast Only
+    </button>
+
+</div>
+
+<section class="product-grid">
+
+    <div class="product-card" data-category="classic-espresso">
+        <img class="drink-photo" src="Seasalt.jfif" alt="Seasalt Signature Latte">
+
+        <div class="product-info">
+            <h3>Seasalt Signature Latte</h3>
+            <p>A special coffee drink from our signature collection.</p>
+            <span class="product-price">₱189</span>
+
+            <button class="add-to-cart"
+                    data-name="Seasalt Signature Latte"
+                    data-price="189">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="classic-espresso">
+        <img class="drink-photo" src="Mochaccino.jfif" alt="Mochaccino Signature">
+
+        <div class="product-info">
+            <h3>Mochaccino Signature</h3>
+            <p>A signature coffee drink for your everyday cravings.</p>
+            <span class="product-price">₱189</span>
+
+            <button class="add-to-cart"
+                    data-name="Mochaccino Signature"
+                    data-price="189">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="classic-espresso">
+        <img class="drink-photo" src="Cloud.jfif" alt="Cloud Foam Latte Signature">
+
+        <div class="product-info">
+            <h3>Cloud Foam Latte Signature</h3>
+            <p>A creamy latte from our signature collection.</p>
+            <span class="product-price">₱189</span>
+
+            <button class="add-to-cart"
+                    data-name="Cloud Foam Latte Signature"
+                    data-price="189">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="classic-espresso">
+        <img class="drink-photo" src="Blended.jfif" alt="Blended Dash Signature">
+
+        <div class="product-info">
+            <h3>Blended Dash Signature</h3>
+            <p>A blended favorite from Dash Espresso.</p>
+            <span class="product-price">₱195</span>
+
+            <button class="add-to-cart"
+                    data-name="Blended Dash Signature"
+                    data-price="195">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="classic-espresso">
+        <img class="drink-photo" src="Black.jfif" alt="Black Classic">
+
+        <div class="product-info">
+            <h3>Black Classic</h3>
+            <p>A classic coffee choice for coffee lovers.</p>
+            <span class="product-price">₱95</span>
+
+            <button class="add-to-cart"
+                    data-name="Black Classic"
+                    data-price="95">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="classic-espresso">
+        <img class="drink-photo" src="White.jfif" alt="White Classic">
+
+        <div class="product-info">
+            <h3>White Classic</h3>
+            <p>A smooth and simple classic coffee selection.</p>
+            <span class="product-price">₱115</span>
+
+            <button class="add-to-cart"
+                    data-name="White Classic"
+                    data-price="115">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="classic-espresso">
+        <img class="drink-photo" src="Spanish.jfif" alt="Spanish Classic">
+
+        <div class="product-info">
+            <h3>Spanish Classic</h3>
+            <p>A Spanish-style coffee selection.</p>
+            <span class="product-price">₱150</span>
+
+            <button class="add-to-cart"
+                    data-name="Spanish Classic"
+                    data-price="150">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="classic-espresso">
+        <img class="drink-photo" src="Vietnamese.jfif" alt="Vietnamese Classic">
+
+        <div class="product-info">
+            <h3>Vietnamese Classic</h3>
+            <p>A Vietnamese-style coffee selection.</p>
+            <span class="product-price">₱150</span>
+
+            <button class="add-to-cart"
+                    data-name="Vietnamese Classic"
+                    data-price="150">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="classic-espresso">
+        <img class="drink-photo" src="Macchiato.jfif" alt="Macchiato Classic">
+
+        <div class="product-info">
+            <h3>Macchiato Classic</h3>
+            <p>A classic espresso-based coffee drink.</p>
+            <span class="product-price">₱150</span>
+
+            <button class="add-to-cart"
+                    data-name="Macchiato Classic"
+                    data-price="150">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="matcha">
+        <img class="drink-photo" src="Dirty Matcha.png" alt="Dirty Matcha">
+
+        <div class="product-info">
+            <h3>Dirty Matcha</h3>
+            <p>A matcha drink combined with espresso.</p>
+            <span class="product-price">₱182</span>
+
+            <button class="add-to-cart"
+                    data-name="Dirty Matcha"
+                    data-price="182">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="matcha">
+        <img class="drink-photo" src="Matcha Latte.png" alt="Matcha Latte">
+
+        <div class="product-info">
+            <h3>Matcha Latte</h3>
+            <p>A smooth and creamy matcha drink with milk.</p>
+            <span class="product-price">₱169</span>
+
+            <button class="add-to-cart"
+                    data-name="Matcha Latte"
+                    data-price="169">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="matcha">
+        <img class="drink-photo" src="Matcha Berry.png" alt="Matcha Berry">
+
+        <div class="product-info">
+            <h3>Matcha Berry</h3>
+            <p>A refreshing combination of matcha and berry.</p>
+            <span class="product-price">₱169</span>
+
+            <button class="add-to-cart"
+                    data-name="Matcha Berry"
+                    data-price="169">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="non-coffee">
+        <img class="drink-photo" src="Chocolate Truffle.png" alt="Truffle Chocolate">
+
+        <div class="product-info">
+            <h3>Truffle Chocolate</h3>
+            <p>A rich and chocolatey drink for sweet cravings.</p>
+            <span class="product-price">₱169</span>
+
+            <button class="add-to-cart"
+                    data-name="Truffle Chocolate"
+                    data-price="169">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="non-coffee">
+        <img class="drink-photo" src="Strawberry Milk.png" alt="Strawberry Milk">
+
+        <div class="product-info">
+            <h3>Strawberry Milk</h3>
+            <p>Sweet strawberry mixed with fresh milk.</p>
+            <span class="product-price">₱156</span>
+
+            <button class="add-to-cart"
+                    data-name="Strawberry Milk"
+                    data-price="156">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="rice-meal">
+        <img src="Sisig.jfif" alt="Sisig Rice Meal">
+
+        <div class="product-info">
+            <h3>Sisig Rice Meal</h3>
+            <p>A flavorful rice meal with savory sisig.</p>
+            <span class="product-price">₱250</span>
+
+            <button class="add-to-cart"
+                    data-name="Sisig Rice Meal"
+                    data-price="250">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="rice-meal">
+        <img src="Lucban Longganisa.jfif" alt="Classic Lucban Longganisa">
+
+        <div class="product-info">
+            <h3>Classic Lucban Longganisa</h3>
+            <p>A Filipino favorite served with rice.</p>
+            <span class="product-price">₱258</span>
+
+            <button class="add-to-cart"
+                    data-name="Classic Lucban Longganisa"
+                    data-price="258">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="rice-meal">
+        <img src="Fried Chicken.png" alt="Signature Fried Chicken">
+
+        <div class="product-info">
+            <h3>Signature Fried Chicken</h3>
+            <p>Crispy, juicy fried chicken seasoned to perfection.</p>
+            <span class="product-price">₱284</span>
+
+            <button class="add-to-cart"
+                    data-name="Signature Fried Chicken"
+                    data-price="284">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="rice-meal">
+        <img src="Creamy Chicken.jfif" alt="Creamy Garlic Chicken and Spinach">
+
+        <div class="product-info">
+            <h3>Creamy Garlic Chicken and Spinach</h3>
+            <p>Chicken and spinach served with a creamy garlic sauce.</p>
+            <span class="product-price">₱318</span>
+
+            <button class="add-to-cart"
+                    data-name="Creamy Garlic Chicken and Spinach"
+                    data-price="318">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="rice-meal">
+        <img src="Beef Tapa.jfif" alt="Homemade Beef Tapa">
+
+        <div class="product-info">
+            <h3>Homemade Beef Tapa</h3>
+            <p>A classic Filipino beef tapa meal served with rice.</p>
+            <span class="product-price">₱338</span>
+
+            <button class="add-to-cart"
+                    data-name="Homemade Beef Tapa"
+                    data-price="338">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="breakfast">
+        <img src="Hungarian.jfif" alt="Hungarian Breakfast">
+
+        <div class="product-info">
+            <h3>Hungarian Breakfast</h3>
+            <p>A filling breakfast to start your day.</p>
+            <span class="product-price">₱266</span>
+
+            <button class="add-to-cart"
+                    data-name="Hungarian Breakfast"
+                    data-price="266">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="product-card" data-category="breakfast">
+        <img src="Basque.png" alt="Special Pancakes">
+
+        <div class="product-info">
+            <h3>Burnt Basque Cheesecake</h3>
+            <p>A rich and creamy cheesecake.</p>
+            <span class="product-price">₱185</span>
+
+            <button class="add-to-cart"
+                    data-name="Special Pancakes"
+                    data-price="213">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+</section>
+
+<p id="no-products">No products found.</p>
+
+<section class="cart-section">
+
+    <h2>Your Cart</h2>
+
+    <div id="cart-items">
+        <p>Your cart is empty.</p>
+    </div>
+
+    <p id="cart-total">Total: ₱0</p>
+
+    <button id="clear-cart">Clear Cart</button>
+
+</section>
+
+<section class="checkout-section">
+
+    <h2>Checkout</h2>
+
+    <p>Please fill in your information before placing your order.</p>
+
+    <form id="checkout-form">
+
+        <label for="customer-name">Full Name</label>
+        <input type="text" id="customer-name"
+               placeholder="Enter your full name" required>
+
+        <label for="customer-phone">Contact Number</label>
+        <input type="tel" id="customer-phone"
+               placeholder="Enter your contact number" required>
+
+        <label for="order-type">Order Type</label>
+        <select id="order-type" required>
+            <option value="">Choose order type</option>
+            <option value="Dine-in">Dine-in</option>
+            <option value="Takeout">Takeout</option>
+        </select>
+
+        <label for="payment-method">Payment Method</label>
+        <select id="payment-method" required>
+            <option value="">Choose payment method</option>
+            <option value="Cash">Cash</option>
+            <option value="GCash">GCash</option>
+        </select>
+
+        <p class="payment-note">
+            GCash is a sample payment option for this school project.
+            No actual payment will be processed.
+        </p>
+
+        <button type="submit" class="main-button">
+            Place Order
+        </button>
+
+        <p id="order-message"></p>
+
+    </form>
+
+</section>
+
+<section class="order-history-section">
+
+    <h2>Order History</h2>
+
+    <p>Your previously placed orders will appear here.</p>
+
+    <div id="order-history">
+        <p>No orders yet.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>@ Dash Espresso</p>
+    <p>Your Everyday Coffee Escape</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
